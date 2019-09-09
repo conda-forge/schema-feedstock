@@ -9,7 +9,7 @@ Feedstock license: BSD 3-Clause
 
 Summary: Schema validation just got Pythonic
 
-schema is a library for validating Python data structures, such as those
+schema is a Python library for validating data structures, such as those
 obtained from config-files, forms, external services or command-line
 parsing, converted from JSON/YAML (or something else) to Python data-types.
 
