@@ -5,7 +5,7 @@ Home: https://github.com/keleshev/schema
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Schema validation just got Pythonic
 
@@ -119,7 +119,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@MaxRis](https://github.com/MaxRis/)
 * [@efiop](https://github.com/efiop/)
+* [@maxhora](https://github.com/maxhora/)
 * [@shcheklein](https://github.com/shcheklein/)
 
