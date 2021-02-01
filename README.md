@@ -5,9 +5,11 @@ Home: https://github.com/keleshev/schema
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/schema-feedstock/blob/master/LICENSE.txt)
 
 Summary: Schema validation just got Pythonic
+
+Development: https://github.com/keleshev/schema
 
 schema is a Python library for validating data structures, such as those
 obtained from config-files, forms, external services or command-line
