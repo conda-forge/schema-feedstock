@@ -20,11 +20,13 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - contextlib2 ==0.5.5
+    - contextlib2 >=0.5.5
 
 test:
   imports:
     - schema
+  commands:
+    - pip check
 
 about:
   home: https://github.com/keleshev/schema
