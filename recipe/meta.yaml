@@ -15,8 +15,6 @@ build:
   script: {{ PYTHON }} -m pip install --no-deps . -vv
 
 requirements:
-  requires:
-    - pip
   host:
     - python >=3.6
     - pip
@@ -25,6 +23,8 @@ requirements:
     - contextlib2 >=0.5.5
 
 test:
+  requires:
+    - pip
   imports:
     - schema
   commands:
