@@ -1,5 +1,5 @@
 {% set name = "schema" %}
-{% set version = "0.7.5" %}
+{% set version = "0.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f06717112c61895cabc4707752b88716e8420a8819d71404501e114f91043197
+  sha256: ce0186666940271e5faeb31b92c830aab6e7eb3f0d6feb88a107a76bba964ba7
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install --no-deps . -vv
 
 requirements:
